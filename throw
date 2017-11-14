@@ -1,0 +1,20 @@
+package today3010;
+
+public class Intro5 {
+	static void checkAge(int age)
+	{
+	if(age<18)
+		throw new ArithmeticException("age is not valid");
+	else
+	{
+		System.out.println("Age is valid");
+	}
+	}
+	public static void main(String[] args) {
+		System.out.println("main method22");
+		checkAge(10);
+		System.out.println("main method");
+		
+	}
+
+}
