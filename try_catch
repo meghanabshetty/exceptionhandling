@@ -1,0 +1,15 @@
+package today3010;
+
+public class Intro2 {
+	public static void main(String[] args) {
+	
+ try
+ {
+	 int a=50/0;
+ }
+ catch(ArithmeticException e)
+ {
+	System.out.println("This is an exception"); 
+ }
+}
+}

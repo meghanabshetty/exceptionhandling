@@ -1,0 +1,33 @@
+package today3010;
+
+public class Intro4 {
+public static void main(String[] args) {
+	System.out.println("Before try");
+	
+	try
+	{
+		String s=null;
+		System.out.println(s.length());
+	}
+	catch(NullPointerException a)
+	{
+		System.out.println("stmt 1");
+	}
+	
+	try
+	{
+		int a=24/0;
+		System.out.println(a);
+	}
+	catch(ArithmeticException npe)
+	{
+		System.out.println("This is null");
+		System.out.println(npe);
+	}
+	finally
+	{
+		System.out.println("I am always there");
+	}
+	System.out.println(" came out");
+}
+}
